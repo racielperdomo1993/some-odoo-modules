@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="assets_backend"
+        name="One2many delete confirm assets backend"
+        inherit_id="web.assets_backend"
+    >
+        <xpath expr="." position="inside">
+            <script
+                type="text/javascript"
+                src="/one2many_delete_confirm/static/src/js/confirmation.js"
+            />
+        </xpath>
+    </template>
+</odoo>
