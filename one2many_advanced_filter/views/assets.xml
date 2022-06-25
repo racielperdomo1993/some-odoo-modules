@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="assets_backend"
+        name="One2many advanced filter assets backend"
+        inherit_id="web.assets_backend"
+    >
+        <xpath expr="." position="inside">
+
+            <script
+                type="text/javascript"
+                src="/one2many_advanced_filter/static/src/js/custom_filter_item.js"
+            />
+            <script
+                type="text/javascript"
+                src="/one2many_advanced_filter/static/src/js/advanced_filter_widget.js"
+            />
+        </xpath>
+    </template>
+</odoo>

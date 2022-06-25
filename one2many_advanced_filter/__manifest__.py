@@ -1,5 +1,5 @@
 {
-    "name": "one2many_delete_confirm",
+    "name": "one2many_advanced_filter",
     "summary": """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
@@ -14,5 +14,7 @@
     "data": [
         "views/assets.xml",
     ],
-    # only loaded in demonstration mode
+    "qweb": [
+        "static/src/xml/templates.xml",
+    ],
 }
