@@ -1,4 +1,4 @@
-# One2many Advanced Filter
+# One2many Advanced Filter (BETA needs huge refactoring)
 ## Allows to filter on fields of type one2many
 
 ![image01](one2many_advanced_filter/static/description/canvas.png)
